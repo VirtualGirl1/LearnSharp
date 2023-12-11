@@ -34,4 +34,7 @@ int Area(int width, int height)
     return width * height;
 }
 ```
-
+Exception is the type for all errors. First we check if the width or the height are
+negative and if either of them are we throw an exception. `throw` will exit the function 
+so that the exception can be caught. we create a new exception with the message "Sides cannot
+be equal". Note it is important to be clear and concise about why an exception was thrown
