@@ -8,15 +8,24 @@ and can be changed by the program. In C# there are 5 simple data types:
  - char - a single character 
  - bool - a true or false
 
+
+## Arrays
+
 There are also arrays which allow programmers to store multiple variables of a type 
 in one variable. They are defined by adding `[]` to the end of the variable name. 
-Here is an example of an int array: `int arr[]`.
+Here is an example of an int array: `int arr[]`. You can read from the array by 
+`arr[3]`. This will read the 4th value from the array.
 
- --- 
+## Nullables
+
+The last simple data type is the optional or nullable type this means the variable 
+can have a value, or it can be null. To make a variable null simply add a '?' to the 
+end of the type name like so `int?`. This can be added to any type, including classes
+and enums
 
 Programmers can also define their own data types in multiple different ways.
 
-## Enumeration
+## Enumerations
 
 Enumerations allow us to give names to specific int values. 
 
@@ -55,3 +64,5 @@ enum Color
 Classes allow us to define more complex data structures as well as 'methods' to act on them. A class 
 can be thought of as a blueprint to describe the layout of something. When we create an instance of a
 class in our program we call that an object.
+
+
