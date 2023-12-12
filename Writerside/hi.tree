@@ -12,4 +12,7 @@
         <toc-element topic="Calculator-Project.md"/>
         <toc-element topic="Error-handling-and-Null.md"/>
     </toc-element>
+    <toc-element topic="OOP.md">
+        <toc-element topic="Calculator-in-a-class.md"/>
+    </toc-element>
 </instance-profile>
