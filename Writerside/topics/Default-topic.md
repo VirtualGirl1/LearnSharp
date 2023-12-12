@@ -16,3 +16,5 @@ you need before we start.
 First you will need to download the [dotnet](https://dotnet.microsoft.com/en-us/download/dotnet/7.0) sdk from Microsoft.
 You will also need something to edit your code in. The best option for this is vscode as it is not
 limited to only windows.
+
+With vscode installed go to the extensions tab and search C#. Install the C# Dev Kit extension.
