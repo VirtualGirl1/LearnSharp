@@ -9,7 +9,7 @@ takes in 2 numbers and asks which operation to perform and print the result.
 We can start by declaring 4 variables.
 ```C#
 double left, right, result;
-char operation.
+char operation;
 ```
 First we define 3 variable of the type double. Doubles are a floating point type, meaning
 they can have a decimal point. Will use these for the left and right of the operation and 
@@ -85,7 +85,7 @@ to reference variables in '{}'.
 In the end we are left with the following code.
 ```C#
 double left, right, result;
-char operation.
+char operation;
 
 Console.Write("Enter left number: ");
 left = double.Parse(Console.ReadLine());
