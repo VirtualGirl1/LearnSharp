@@ -13,6 +13,7 @@
         <toc-element topic="Error-handling-and-Null.md"/>
     </toc-element>
     <toc-element topic="OOP.md">
+        <toc-element topic="Getters-and-Setters.md"/>
         <toc-element topic="Calculator-in-a-class.md"/>
         <toc-element topic="Enumeration.md"/>
     </toc-element>
