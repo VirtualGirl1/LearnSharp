@@ -14,5 +14,6 @@
     </toc-element>
     <toc-element topic="OOP.md">
         <toc-element topic="Calculator-in-a-class.md"/>
+        <toc-element topic="Enumeration.md"/>
     </toc-element>
 </instance-profile>

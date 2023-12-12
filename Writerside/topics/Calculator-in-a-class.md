@@ -114,5 +114,5 @@ the `Run()` method to start the calculator.
 
 ## Bonus Challenge
 
-Now that you have your working calculator add methods for each of the operations that will perform 
+Now that you have your working calculator try adding methods for each of the operations that will perform 
 that operation and return the result.
