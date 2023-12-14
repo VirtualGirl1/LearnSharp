@@ -50,4 +50,8 @@
         <description>Created after removal of "Interfaces" from Help Instance</description>
         <accepts>Interfaces.html</accepts>
     </rule>
+    <rule id="3da609a1">
+        <description>Created after removal of "Reno System Example" from Help Instance</description>
+        <accepts>Reno-System-Example.html</accepts>
+    </rule>
 </rules>
