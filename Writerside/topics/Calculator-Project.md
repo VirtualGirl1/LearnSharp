@@ -26,7 +26,7 @@ Console.Write("Enter right number: ");
 right = double.Parse(Console.ReadLine());
 
 Console.Write("Enter the operation you want to perform: ");
-operation = Console.ReadLine[0];
+operation = Console.ReadLine()[0];
 ```
 That's a lot more code than before so let's go through it. The first line writes out to
 prompt the user to enter something. Notice how we use `Console.Write()` instead of 
@@ -94,7 +94,7 @@ Console.Write("Enter right number: ");
 right = double.Parse(Console.ReadLine());
 
 Console.Write("Enter the operation you want to perform: ");
-operation = Console.ReadLine[0];
+operation = Console.ReadLine()[0];
 
 switch (operation)
 {

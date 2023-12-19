@@ -9,6 +9,7 @@
     <toc-element topic="Default-topic.md">
         <toc-element topic="Creating-a-New-Project.md">
         </toc-element>
+        <toc-element topic="Loops.md"/>
         <toc-element topic="Calculator-Project.md"/>
         <toc-element topic="Error-handling-and-Null.md"/>
     </toc-element>
@@ -18,4 +19,5 @@
         <toc-element topic="Enumeration.md"/>
         <toc-element topic="Reno-System-Example.md"/>
     </toc-element>
+    <toc-element topic="Files-and-Data.md"/>
 </instance-profile>

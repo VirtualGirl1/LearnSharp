@@ -1,4 +1,4 @@
-# OOP
+# OOP Intro
 
 OOP refers to on of the [Paradigms of Programming](https://en.wikipedia.org/wiki/Programming_paradigm).
 It stands for Object-Oriented Programming where programmers use classes to represent parts of a 
