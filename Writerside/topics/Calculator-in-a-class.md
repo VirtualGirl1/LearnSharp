@@ -97,6 +97,7 @@ public void Run()
                 break;
             default:
                 result = 0;
+                break;
         }
 
         Console.WriteLine($"Result is {result}");
