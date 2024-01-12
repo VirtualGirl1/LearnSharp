@@ -66,6 +66,7 @@ switch (operation)
         break;
     default:
         result = 0;
+        break;
 }
 ```
 The `switch` takes an integer value as its argument. We can use char as the argument because
@@ -112,6 +113,7 @@ switch (operation)
         break;
     default:
         result = 0;
+        break;
 }
 
 Console.WriteLine($"Result is {result}");
