@@ -97,10 +97,11 @@ is 'q' it will not enter the loop.
 Here is another example using another kind of loop called a 'do' or 'do while'. This kind of
 loop will always run at least 1 time.
 ```C#
+int num = 0;
 do 
 {
-    int num = int.TryParse(Console.ReadLine());
-} while (!num.HasValue);
+    bool isValid = int.TryParse(Console.ReadLine());
+} while (isValid);
 ```
 This loop will continue to get input from the console and attempt to parse it into an int 
 until the user enters a valid int.

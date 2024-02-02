@@ -18,17 +18,12 @@ create a new method to get our left and right numbers.
 public static double GetNumber()
 {
     bool isValid = false;
-    double? number;
+    double number;
     
     while (!isValid)
     {
         Console.Write("Please enter a number: ");
-        number = double.TryParse(Console.ReadLine());
-        
-        if (number.HasValue)
-        {
-            isValid = true;
-        }
+        isValid = double.TryParse(Console.ReadLine(), number);
     }
     
     return number.Value;
@@ -45,7 +40,7 @@ public static char GetOperation()
 {
     bool isValid = false;
     string validOperations = "+-*/";
-    char operation;
+    char operation = '\0';
     
     while (!isValid) 
     {
